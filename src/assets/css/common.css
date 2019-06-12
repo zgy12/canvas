@@ -17,7 +17,15 @@ a {
 a:link {
   color: blue;
 }
+ul, ol, li {
+  list-style: none;
+}
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 0.24rem;
 }
+.layout {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+

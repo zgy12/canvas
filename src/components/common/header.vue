@@ -1,21 +1,19 @@
 <template>
-  <dl>
-    <dt>121</dt>
-    <dd></dd>
+  <dl class="header layout">
+    <dt>cancas练习</dt>
+    <dd>
+      <router-link to = "round">圆</router-link>
+    </dd>
   </dl>
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        height: 300,
-        width: 400
-      }
+<style lang="less">
+  .header {
+    height: 0.8rem;
+    .layouts.flexBox;
+    font-size: 0.22rem;
+    line-height: 0.8rem;
+    dd {
+      margin-left: 0.1rem;
     }
   }
-</script>
-
-<style lang="scss">
-
 </style>

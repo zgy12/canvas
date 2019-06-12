@@ -1,29 +1,13 @@
-# canvas
+# canvas 练习
 
-## Project setup
-```
-npm install
-```
+## 项目结构
+1. 画板
+2. 画圆
+3. 矩形
+4. 动画
 
-### Compiles and hot-reloads for development
+## 运行项目
 ```
-npm run serve
+npm i 
+npm run serve 
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
